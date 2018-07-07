@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Modern Architecture from Around the World</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+// $('.carousel').carousel()
+
+// Activate Carousel
+$("#myCarousel").carousel();
+
+// Enable Carousel Indicators
+$(".carousel-item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+$(".carousel-item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+$(".carousel-item").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+
+// Enable Carousel Controls
+$(".carousel-control-prev").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+$(".carousel-control-next").click(function(){
+        $("#myCarousel").carousel("next");
+    }); 
+</script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-image: url(https://wallpaperlayer.com/img/2015/12/background-images-6201-6474-hd-wallpapers.jpg);">
+  <div class="container">
+
+  <!-- Title -->
+  <div class="row">
+    <div class="col-md-12">
+  <h1>Modern Architecture from Around the World</h1>
+  <h3>By SuMoFiTsPaRtS (using Bootstrap Carousel)</h3>
+  <p>I built this site to inspire myself and out of my interest in buildings and good design.</p>
+</div>
+</div>
+
+  <!--Carousel-->
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="border-color: black; border-style: solid; border-width: 3px; box-shadow: 10px 10px 5px #888888;">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="http://assets.dornob.com/wp-content/uploads/2016/02/heydar-alijev-centre.jpg" alt="First slide" height="430" width="500">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:white; text-shadow: 2px 2px grey;">Building Name</h5>
+            <p style="color:white; text-shadow: 2px 2px grey;">Architect</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="http://images.adsttc.com/media/images/5014/7a22/28ba/0d39/5000/000c/large_jpg/stringio.jpg?1414468228" alt="Second slide" height="430" width="500">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:white; text-shadow: 2px 2px grey;">Building Name</h5>
+            <p style="color:white; text-shadow: 2px 2px grey;;">Architect</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="http://www.arch2o.com/wp-content/uploads/2015/05/Arch2O-Italian-Pavilion-Milan-Expo-2015-005.jpg" alt="Third slide" height="430" width="500">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:white; text-shadow: 2px 2px grey;">Building Name</h5>
+            <p style="color:white; text-shadow: 2px 2px grey;">Architect</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="http://media.architecturaldigest.com/photos/56bdfb97f80b269a4abafdb3/master/pass/steel-buildings-03.jpg" alt="Third slide" height="430" width="500">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:white; text-shadow: 2px 2px grey;">Walt Disney Concert Hall</h5>
+            <p style="color:white; text-shadow: 2px 2px grey;"><a style="color: white;" href="#a4">Frank Gehry</a></p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://a.travel-assets.com/findyours-php/viewfinder/images/res60/71000/71208-Planalto-Palace.jpg" alt="Third slide" height="430" width="500">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:white; text-shadow: 2px 2px grey;">Building Name</h5>
+            <p style="color:white; text-shadow: 2px 2px grey;">Architect</p>
+          </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+
+  <br><br>
+
+  <div class="row">
+      <div class="col-md-12">
+          <h3>The Architects</h3>
+      </div>
+  </div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <h5 id="a4">4. Frank Gehry - Walt Disney Concert Hall</h5>
+        <p>Frank Owen Gehry, CC, FAIA (/ˈɡɛəri/; born Frank Owen Goldberg; February 28, 1929)[1] is a Canadian-born American architect, residing in Los Angeles.</p>
+
+            <p>A number of his buildings, including his private residence, have become world-renowned attractions. His works are cited as being among the most important works of contemporary architecture in the 2010 World Architecture Survey, which led Vanity Fair to label him as "the most important architect of our age".</p>
+            
+            <p>Gehry's best-known works include the titanium-clad Guggenheim Museum in Bilbao, Spain; Walt Disney Concert Hall in downtown Los Angeles; Louis Vuitton Foundation in Paris, France; MIT Ray and Maria Stata Center in Cambridge, Massachusetts; The Vontz Center for Molecular Studies on the University of Cincinnati campus; Museum of Pop Culture in Seattle; New World Center in Miami Beach; Weisman Art Museum at the University of Minnesota in Minneapolis; Dancing House in Prague; the Vitra Design Museum and the MARTa Herford museum in Germany; the Art Gallery of Ontario in Toronto; the Cinémathèque Française in Paris; and 8 Spruce Street in New York City.</p>
+            
+            <p>It was his private residence in Santa Monica, California that jump-started his career. Gehry is also the designer of the future National Dwight D. Eisenhower Memorial.[3]</p>
+
+            <p><a href="https://en.wikipedia.org/wiki/Frank_Gehry" target="_blank" style="color: black; text-decoration: underline;">Source: Wikipedia.com/frank_gehry</a></p>
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gt1_BgCN6lU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+</div>
+
+<hr><br><br><br>
+
+</div>
+
+</body>
+
+</html>
